@@ -117,8 +117,8 @@ li {
 }
 
 /* a, */
-img,
 span,
+img,
 data,
 input,
 button,
@@ -828,6 +828,8 @@ p {
 .stats-card .card-text {
     color: var(--eerie-black-1);
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 /*-----------------------------------*\
